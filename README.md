@@ -21,7 +21,7 @@
 
 - 二、 重要说明&BIOS设置
 
-     - 1、 [硬盘Raid模式无损转换为AHCI模式，参考链接](https://www.dazhuanlan.com/2019/12/15/5df650b549a64/)
+     - 1、[硬盘Raid模式无损转换为AHCI模式，参考链接](https://www.dazhuanlan.com/2019/12/15/5df650b549a64/)
      - 2、将Secure Boot - Secure Boot Enable 取掉勾选。BIOS里面自己找。这个都找不到就不要装黑苹果了。
      - 3、把EFI搬运到硬盘，然后执行 ⁨alc_fix⁩ 里的 install双击自动安装（解决耳机无声）
 
@@ -40,4 +40,5 @@
 
 
 ## 修改记录：
+-	OpenCore20200623-1356 修复睡眠唤醒后需要敲键盘才能亮屏的BUG，尝试修复唤醒触摸板不能使用的问题，屏蔽PR15。
 -	OpenCore20200621-2300 BUG见正文。
